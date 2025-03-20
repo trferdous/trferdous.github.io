@@ -85,31 +85,33 @@ button:hover {
 }
 
 /* Additional padding and hover effects for specified sections */
-#skills, #education, #research, #contact, #projects, #technical-skills, #technical-skills:hover, #education:hover, #research:hover, #contact:hover {
-
-
+#skills, #education, #research, #contact, #projects, #technical-skills {
     padding: 20px; /* Add padding to the sections */
     text-align: left; /* Align text to the left */
-
     transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s; /* Add transition for hover effects */
-    text-align: left; /* Align text to the left */
 }
 
-#skills:hover, #education:hover, #research:hover, #contact:hover, #projects:hover, #technical-skills:hover {
+#skills:hover, #education:hover, #research:hover, #contact:hover, #technical-skills:hover {
     background-color: rgba(255, 255, 255, 0.1); /* Change background on hover */
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2); /* Add shadow on hover */
     transform: scale(1.05); /* Scale effect on hover */
 }
 
-
-#skills:hover, #education:hover, #research:hover, #contact:hover, #projects:hover {
+#projects:hover {
     background-color: rgba(255, 255, 255, 0.1); /* Change background on hover */
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2); /* Add shadow on hover */
+    transform: scale(1.02); /* Further reduced scale effect for Projects section */
 }
+
 
 /* Center bold text */
 strong {
     display: block; /* Make strong elements block-level */
     text-align: left; /* Left-align bold text */
     padding-left: 10px; /* Add left padding to move text slightly right */
+}
+
+/* Add left padding to the Technical Tools list */
+#skills ul {
+    padding-left: 20px; /* Move the list items slightly to the right */
 }
