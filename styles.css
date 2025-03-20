@@ -1,0 +1,115 @@
+/* Enhanced Styles for Portfolio Website */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: white; /* Change text color to white */
+    background-color: black; /* Change background color to black */
+    text-align: left; /* Left-align body text */
+    padding: 20px; /* Add padding for spacing */
+}
+
+h1, h2, h3 {
+    color: white; /* Change headings to white */
+    text-align: left; /* Left-align headings */
+}
+
+nav {
+    display: block; /* Change to block for vertical layout */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0; /* Vertical spacing */
+}
+
+.portfolio-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px 0; /* Add margin for spacing */
+    padding: 15px; /* Add padding for content */
+    text-align: left; /* Align text to the left */
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1); /* Change shadow color to white */
+}
+
+button {
+    background-color: #333;
+    color: white; /* Change button text to white */
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block; /* Center button */
+    margin: 20px auto; /* Center button with margin */
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Back to Top Button Styles */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* Scroll Animation Styles */
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Additional padding and hover effects for specified sections */
+#skills, #education, #research, #contact, #projects, #technical-skills, #technical-skills:hover, #education:hover, #research:hover, #contact:hover {
+
+
+    padding: 20px; /* Add padding to the sections */
+    text-align: left; /* Align text to the left */
+
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s; /* Add transition for hover effects */
+    text-align: left; /* Align text to the left */
+}
+
+#skills:hover, #education:hover, #research:hover, #contact:hover, #projects:hover, #technical-skills:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Change background on hover */
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2); /* Add shadow on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+
+#skills:hover, #education:hover, #research:hover, #contact:hover, #projects:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Change background on hover */
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2); /* Add shadow on hover */
+}
+
+/* Center bold text */
+strong {
+    display: block; /* Make strong elements block-level */
+    text-align: left; /* Left-align bold text */
+    padding-left: 10px; /* Add left padding to move text slightly right */
+}
