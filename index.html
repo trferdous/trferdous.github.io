@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Talukdar Raian Ferdous</title>
+<meta name="description" content="Talukdar Raian Ferdous — Signal Processing & Machine Learning Engineer, PhD Candidate in Biomedical Engineering at the University of Houston.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="name">Talukdar Raian Ferdous</a>
+    <nav class="tabs">
+      <a href="index.html" class="active">Home</a>
+      <a href="education.html">Education</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html">Projects</a>
+      <a href="publications.html">Publications</a>
+      <a href="news.html">News</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <div class="home-hero">
+      <img src="assets/headshot.jpg" alt="Portrait of Talukdar Raian Ferdous" class="headshot">
+      <div class="intro">
+        <h1>Talukdar Raian Ferdous</h1>
+        <div class="role-line">Signal Processing &amp; Machine Learning Engineer</div>
+        <p class="lede">I'm a PhD candidate in Biomedical Engineering at the University of Houston, where I build wearable neuroimaging hardware and the signal-processing and machine-learning pipelines that turn raw EEG, fNIRS, and cardiac waveforms into clinical insight. I've also spent time in industry applying these methods to hemodynamic data at Johnson &amp; Johnson MedTech.</p>
+        <div class="links-row">
+          <a href="https://github.com/trferdous?tab=repositories" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/talukdar-raian-ferdous-781476155/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://scholar.google.com/citations?user=snSjVosAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar ↗</a>
+          <a href="mailto:trferdous@outlook.com">Email</a>
+          <a href="assets/Raian_Ferdous_CV.pdf" download>Download CV</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pipeline">
+      <h2><a href="#pipeline" class="anchor" id="pipeline">#</a>What I work on</h2>
+      <p class="muted" style="font-family:'Inter',sans-serif; font-size:0.92rem;">Hover or tap a stage to see what happens there.</p>
+      <div class="pipeline-figure">
+        <svg id="pipelineSvg" viewBox="0 0 640 150" width="100%" style="max-width:640px; display:block; margin:0 auto;">
+          <defs>
+            <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+              <path d="M0,0 L6,3 L0,6 Z" fill="#e7e5df"></path>
+            </marker>
+          </defs>
+          <line x1="140" y1="75" x2="166" y2="75" class="parrow"></line>
+          <line x1="306" y1="75" x2="332" y2="75" class="parrow"></line>
+          <line x1="472" y1="75" x2="498" y2="75" class="parrow"></line>
+
+          <g class="pnode" data-caption="Wearable EEG, fNIRS, and cardiac sensors capture raw physiological waveforms.">
+            <rect class="pbox" x="10" y="40" width="130" height="70" rx="5"></rect>
+            <text x="75" y="70" text-anchor="middle" font-size="13" font-weight="600" fill="#1c1c1c">Sensing</text>
+            <text x="75" y="88" text-anchor="middle" font-size="11" fill="#6e6d68">EEG · fNIRS · ECG</text>
+          </g>
+
+          <g class="pnode" data-caption="Cleaning, filtering, and aligning multimodal signals across devices and clocks.">
+            <rect class="pbox" x="166" y="40" width="140" height="70" rx="5"></rect>
+            <text x="236" y="70" text-anchor="middle" font-size="13" font-weight="600" fill="#1c1c1c">Signal Processing</text>
+            <text x="236" y="88" text-anchor="middle" font-size="11" fill="#6e6d68">Filtering · GLM · Connectivity</text>
+          </g>
+
+          <g class="pnode" data-caption="Neural networks and classical ML models trained on cross-modal feature sets.">
+            <rect class="pbox" x="332" y="40" width="140" height="70" rx="5"></rect>
+            <text x="402" y="70" text-anchor="middle" font-size="13" font-weight="600" fill="#1c1c1c">Machine Learning</text>
+            <text x="402" y="88" text-anchor="middle" font-size="11" fill="#6e6d68">CNN · LSTM · RNN</text>
+          </g>
+
+          <g class="pnode" data-caption="Findings that support BCI systems, cardiac monitoring, and clinical decisions.">
+            <rect class="pbox" x="498" y="40" width="130" height="70" rx="5"></rect>
+            <text x="563" y="70" text-anchor="middle" font-size="13" font-weight="600" fill="#1c1c1c">Insight</text>
+            <text x="563" y="88" text-anchor="middle" font-size="11" fill="#6e6d68">BCI · Diagnostics</text>
+          </g>
+        </svg>
+        <div class="pipeline-caption" id="pipelineCaption">&nbsp;</div>
+      </div>
+    </div>
+
+    <div class="quicknav">
+      <a href="education.html">
+        <div class="qtitle">Education →</div>
+        <div class="qdesc">PhD in Biomedical Engineering, University of Houston</div>
+      </a>
+      <a href="experience.html">
+        <div class="qtitle">Experience →</div>
+        <div class="qdesc">University of Houston, Johnson &amp; Johnson MedTech, Bioforge</div>
+      </a>
+      <a href="projects.html">
+        <div class="qtitle">Projects →</div>
+        <div class="qdesc">Brain-CAP, PHOEBE, and other research builds</div>
+      </a>
+      <a href="publications.html">
+        <div class="qtitle">Publications →</div>
+        <div class="qdesc">Journal articles, consortium papers, and conference proceedings</div>
+      </a>
+      <a href="news.html">
+        <div class="qtitle">News →</div>
+        <div class="qdesc">Recent submissions, presentations, and updates</div>
+      </a>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Talukdar Raian Ferdous</span>
+    <span>Houston, Texas</span>
+  </div>
+</footer>
+
+<script>
+  const nodes = document.querySelectorAll('.pnode');
+  const caption = document.getElementById('pipelineCaption');
+  nodes.forEach(n => {
+    n.addEventListener('mouseenter', () => {
+      nodes.forEach(x => x.classList.remove('active'));
+      n.classList.add('active');
+      caption.textContent = n.getAttribute('data-caption');
+    });
+    n.addEventListener('click', () => {
+      nodes.forEach(x => x.classList.remove('active'));
+      n.classList.add('active');
+      caption.textContent = n.getAttribute('data-caption');
+    });
+  });
+  document.getElementById('pipelineSvg').addEventListener('mouseleave', () => {
+    nodes.forEach(x => x.classList.remove('active'));
+    caption.innerHTML = '&nbsp;';
+  });
+</script>
+
+</body>
+</html>

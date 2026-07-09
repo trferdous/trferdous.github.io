@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Talukdar Raian Ferdous</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="name">Talukdar Raian Ferdous</a>
+    <nav class="tabs">
+      <a href="index.html">Home</a>
+      <a href="education.html">Education</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="publications.html">Publications</a>
+      <a href="news.html">News</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <span class="eyebrow">Projects</span>
+    <h1>Selected work</h1>
+    <p class="lede">Research and development projects spanning wearable neuroimaging hardware, signal quality tooling, and clinical data analysis.</p>
+
+    <hr class="rule">
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="entry-title">Brain-CAP High-Density Neuroimaging System</div>
+        <div class="entry-date">Aug 2021 – Present</div>
+      </div>
+      <div class="entry-org">NSF Funded · Python, MATLAB, STM32</div>
+      <p>Developed a high-density multimodal neuroimaging device in collaboration with the National Science Foundation and industry partners (Brain Products and Indus Instruments), capable of collecting data from 64 EEG electrodes, over 1,100 long-separation channels, and 256 short-separation fNIRS channels.</p>
+      <ul>
+        <li>Performed statistical testing (paired t-test) using SciPy on resting-state data after preprocessing to validate brain signals against a gold-standard fNIRS device.</li>
+        <li>Conducted EEG frequency analysis to demonstrate strong alpha waves indicative of the resting state.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="entry-title">PHOEBE — fNIRS Data Quality Assessment Toolbox</div>
+        <div class="entry-date">Aug 2021</div>
+      </div>
+      <div class="entry-org">MATLAB, Lab Streaming Layer</div>
+      <p>Co-developed a MATLAB-based toolbox for real-time fNIRS data quality assessment, improving signal quality by extracting the cardiac band from raw signals and establishing quality metrics such as scalp coupling index and peak spectral power.</p>
+      <ul>
+        <li>Automated the handling of real-time Lab Streaming Layer-streamed metadata from different manufacturers' devices by parsing information with the LSL library.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="entry-title">Dementia Risk Project</div>
+        <div class="entry-date">Dec 2023 – Present</div>
+      </div>
+      <div class="entry-org">NIH Funded · MATLAB, GitLab, E-Prime</div>
+      <p>Testing and maintaining fNIRS device (NIRx NIRScout) and digitizer tool (Polhemus Patriot) used in data collection, with routine inspection and troubleshooting to ensure equipment reliability throughout the research process.</p>
+      <ul>
+        <li>Conducted data quality assessment post-collection using the QT-NIRS toolbox to increase accuracy and reliability of findings.</li>
+        <li>Performed subject- and group-level statistical analysis (mixed-effects model) to detect task-sensitive brain regions in dementia-risked women with Type 2 diabetes.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="entry-title">End of Life Project</div>
+        <div class="entry-date">Oct 2022</div>
+      </div>
+      <div class="entry-org">MD Anderson Cancer Center · MATLAB, EEGLAB, Clinical, R, Python</div>
+      <p>Preprocessed and analyzed clinical electrophysiological (EEG) data using MATLAB and Python to distinguish auditory responses in patients nearing end of life, applying parametric and non-parametric statistical tests to identify statistically significant responses against baseline noise at the single-subject level.</p>
+      <ul>
+        <li>Set up and tested EEG equipment to record data from a near-death population.</li>
+        <li>Developed an analytical framework capable of handling diverse data challenges — poor quality, artifacts, and non-Gaussian distributions — enabling robust processing and interpretation.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="entry-title">Vital Signs Monitoring System Validation</div>
+        <div class="entry-date">Jan 2021</div>
+      </div>
+      <div class="entry-org">MATLAB, Arduino, MongoDB</div>
+      <p>Developed algorithms for a wireless vital-signs monitoring device capable of securely storing patient data — heart rate, temperature, and ECG — to a secured server.</p>
+      <ul>
+        <li>Compared device performance to widely used medical devices for potential implementation in ICUs.</li>
+        <li>Conducted data analysis using statistical tests to validate device reliability.</li>
+      </ul>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Talukdar Raian Ferdous</span>
+    <span>Houston, Texas</span>
+  </div>
+</footer>
+
+</body>
+</html>
